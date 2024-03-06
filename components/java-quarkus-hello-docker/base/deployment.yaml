@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: java-quarkus-hello-docker
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-user-workloads-stage/catoconn-rhmi-tenant/java-quarkus-hello-docker/java-quarkus-hello-docker@sha256:6d06987b788070c3ca282d1edd79fa78ad957552cc9a2bbd65b21f831d112538
         name: my-java-quarkus
         ports:
         - containerPort: 8081
